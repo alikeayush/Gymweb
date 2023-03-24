@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheets" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        margin:0px;
+        color: white;
+        padding: 0px;
+        background: url('img/hulkbg.jpeg');
+        background-size: 1426px 821px;
+        background-repeat: no-repeat;
+    }
+    .Left{
+        position: absolute;
+        display: inline-block;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(51, 232, 14); */
+    }
+    .Left img{
+        width: 90px;
+        filter: invert(100%);
+        
+    }
+    .Left div{
+        text-align: center;
+    }
+    .Mid{
+        display: block;
+        width: 40%;
+        margin: 22px auto;
+        /* border: 2px solid rgb(223, 216, 19); */
+    }
+    .Right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(27, 33, 207); */
+    }  
+    .navbar{
+        display: inline-block;
+    } 
+    .navbar li{
+        display: inline-block;
+        font-size: 21px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px 15px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color:gray;
+    }
+    .btn {
+    margin: 13px 9px;
+    background-color: black;
+    color: white;
+    padding: 3px 4px;
+    border: 2p gray;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    .btn:hover{
+        color: rgb(12, 11, 11);
+    }
+    .container {
+    border: 2px solid white;
+    margin: 165px 70px;
+    padding: 40px 8px;
+    width: 38%;
+    border-radius: 20px;
+}
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 310px;
+    padding: 9px;
+    margin: 4px auto;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.container h1{
+    text-align: center;
+}
+.container button {
+    display: block;
+    width: 61%;
+    margin: 14px auto;
+}
+</style>
+<body>
+<header class="header">
+    <!--Left box for logo-->
+    <div class="Left">
+        <img src="img/logo123.png" alt="">
+        <div>The Hulk</div>
+    </div>
+    <!-- mid box for navbar-->
+    <div class="Mid">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Fitness Coach</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+    <!-- Right box for buttons-->
+    <div class="Right">
+        <button class="btn"> Call us</button>
+        <button class="btn">Email us</button>
+    </div>
+</header>
+<div class="container">
+    <h1>Enter your details to join now</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Contact Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <button class="btn">submit</button>
+    </form>
+</div>
+</body>
+</html>
