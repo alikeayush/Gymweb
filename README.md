@@ -15,4 +15,4 @@ This project is a simple landing page for a gym website, built using HTML and CS
 - CSS: Used for styling the elements and applying visual enhancements to the page.
 - Responsive Design Techniques: Media queries and flexible layout techniques are employed to ensure the landing page looks and functions well on various devices.
 
-
+## Link:
